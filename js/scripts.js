@@ -67,6 +67,7 @@ function getAkanName() {
     }
 }
 
-function clearAkanOutput(){
+function clearAkanNameOutput(){
   document.getElementById("generate-akan").innerHTML = ("");
+  
 }
