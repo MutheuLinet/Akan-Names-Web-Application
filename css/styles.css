@@ -50,3 +50,94 @@
   margin-top: 5%;
   color: #000000;
 }
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 10%;
+  font-size: larger;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+label {
+  /* margin-left: 30%; */
+  margin-top: -15%;
+  font-weight: 1000px;
+}
+
+#table {
+  width: 80%;
+  margin-left: 9%;
+}
+#year {
+  height: 30px;
+}
+#month {
+  height: 30px;
+  margin-left: 11%;
+}
+#day {
+  height: 30px;
+  margin-left: 11%;
+}
+#gender {
+  height: 30px;
+  width: 200px;
+  margin-left: 2%;
+}
+#submit {
+  height: 30px;
+  margin-left: 15%;
+}
+
+#cancel {
+  height: 30px;
+}
+body {
+  font-weight: 1000px;
+}
+
+.output {
+  margin-left: 25%;
+  font-size: x-large;
+}
+
+#formrow {
+  /* background-color: #dddddd; */
+  height: 400px;
+  width: 900px;
+  margin-left: 11%;
+  font-size: x-large;
+}
+#footer {
+  height: 200px;
+  width: 110%;
+  margin-left: -5%;
+  margin-bottom: 0%;
+  text-align: center;
+  background-color: #ffffff;
+}
+li {
+  list-style: none;
+  color: #000000;
+}
+#body {
+  background-color: #fd7e14;
+}
+#alert {
+  border: none;
+}
+#imgfooter {
+  height: 80px;
+}
