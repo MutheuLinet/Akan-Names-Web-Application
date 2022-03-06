@@ -10,16 +10,15 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css"
     />
     <link rel="stylesheet" href="static/css/styles.css" />
-    
   </head>
   <body>
     <div class="container-fluid">
       <div class="container-fluid" id="img1">
-          <div class="row">
-            <div class="col" >
-              <img id="children" src="static/images/aw.jpg" alt="">
-            </div>
+        <div class="row">
+          <div class="col">
+            <img id="children" src="static/images/aw.jpg" alt="" />
           </div>
+        </div>
       </div>
 
       <div class="container-fluid" id="section2">
@@ -40,11 +39,147 @@
               examples of public figures with Akan names. <br />
               <br />
               Would you like to know your Akan name? The table below shows the
-              various 'day names' as used by the Akan people. 
-              
+              various 'day names' as used by the Akan people.
             </p>
           </div>
         </div>
       </div>
+      <div class="container-fluid">
+        <div class="row" id="section3">
+          <div class="col">
+            <table class="table" id="table">
+              <thead class="table-success">
+                <tr>
+                  <th>Day of Birth</th>
+                  <th>Male</th>
+                  <th>Female</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Sunday</td>
+                  <td>Kwasi</td>
+                  <td>Akosua</td>
+                </tr>
+                <tr>
+                  <td>Monday</td>
+                  <td>Kwadwo</td>
+                  <td>Adwoa</td>
+                </tr>
+                <tr>
+                  <td>Tuesday</td>
+                  <td>Kwabena</td>
+                  <td>Abenaa</td>
+                </tr>
+                <tr>
+                  <td>Wednesday</td>
+                  <td>Kwaku</td>
+                  <td>Akua</td>
+                </tr>
+                <tr>
+                  <td>Thursday</td>
+                  <td>Yaw</td>
+                  <td>Yaa</td>
+                </tr>
+                <tr>
+                  <td>Friday</td>
+                  <td>Kofi</td>
+                  <td>Afua</td>
+                </tr>
+                <tr>
+                  <td>Saturday</td>
+                  <td>Kwame</td>
+                  <td>Ama</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row" id="formrow">
+          <div class="col">
+            <form class="form">
+              <p>
+                Key in your gender, birthday and submit to see your Akan name!
+              </p>
+              <label>Birthday: </label>
+              <input
+                type="text"
+                value=""
+                placeholder="Year"
+                id="year"
+                required
+                maxlength="4"
+                autocomplete="off"
+              />
+              <br /><br />
+              <input
+                type="text"
+                placeholder="Month"
+                value=""
+                id="month"
+                required
+                maxlength="2"
+                autocomplete="off"
+              />
+              <br /><br />
+              <input
+                type="text"
+                placeholder="Day"
+                value=""
+                id="day"
+                required
+                maxlength="2"
+                autocomplete="off"
+              />
+              <br /><br />
+
+              <label>Gender: </label>
+              <select id="gender" name="gender" class="form-select">
+                <option selected>Nothing selected</option>
+                <option>Male</option>
+                <option>Female</option>
+              </select>
+              <br /><br />
+
+              <input
+                id="submit"
+                type="submit"
+                onclick="getAkanName(); return false;"
+                value="Submit"
+                name="submit"
+              />
+              <input
+                id="cancel"
+                type="submit"
+                onclick="clearAkanOutput(); return false;"
+                value="Cancel"
+                name="cancel"
+              />
+            </form>
+          </div>
+        </div>
+
+        <div class="alert" role="alert" id="alert">
+          <p id="generate-akan" class="output"></p>
+        </div>
+      </div>
+
+      <div class="container" id="footer">
+        <div class="footer">
+          <div class="container-fluid">
+            <ul>
+              <li>2022 All Rights Reserved. Akan Names Application.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="static/js/scripts.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </body>
 </html>
