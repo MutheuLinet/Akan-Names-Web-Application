@@ -1,0 +1,52 @@
+#section1 {
+  /* background-image: url(../images/ac.jpg); */
+  height: 350px;
+
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  /* border: 2px solid black; */
+}
+#children {
+  height: 400px;
+  border-radius: 100%;
+  margin-left: 30%;
+}
+#navbarsec a {
+  color: solid #fd7e14;
+  content: "\e8b9";
+}
+#section2 {
+  height: 600px;
+
+  font-weight: 1100px;
+  margin-top: -1%;
+  /* border: 2px solid black; */
+}
+
+#section2 h1 {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 5%;
+  color: #050505;
+}
+#section2 p {
+  text-align: center;
+  font-weight: 800px;
+  font-size: x-large;
+}
+
+#section3 {
+  height: 600px;
+
+  margin-top: -10%;
+  margin-bottom: -17%;
+}
+
+#section3 h2 {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 1200px;
+  text-transform: uppercase;
+  margin-top: 5%;
+  color: #000000;
+}
