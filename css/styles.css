@@ -1,47 +1,40 @@
 #section1 {
-  /* background-image: url(../images/ac.jpg); */
-  height: 350px;
-
+  background-image: url(../images/aw.jpg);
+  height: 500px;
   background-repeat: no-repeat;
-  /* background-size: cover; */
-  /* border: 2px solid black; */
+  background-size: cover;
+  border: 2px solid black;
 }
 #children {
   height: 400px;
   border-radius: 100%;
-  margin-left: 30%;
-}
-#navbarsec a {
-  color: solid #fd7e14;
-  content: "\e8b9";
+  margin-left: 7%;
+  margin-top: 5%;
 }
 #section2 {
   height: 600px;
-
   font-weight: 1100px;
   margin-top: -1%;
   /* border: 2px solid black; */
 }
-
 #section2 h1 {
-  text-align: center;
+  text-align: left;
   text-decoration: underline;
   margin-top: 5%;
+  margin-left: 1%;
   color: #050505;
 }
 #section2 p {
-  text-align: center;
+  text-align: left;
   font-weight: 800px;
   font-size: x-large;
+  margin-left: 1%;
 }
-
 #section3 {
   height: 600px;
-
   margin-top: -10%;
   margin-bottom: -17%;
 }
-
 #section3 h2 {
   text-align: center;
   text-decoration: underline;
@@ -50,7 +43,6 @@
   margin-top: 5%;
   color: #000000;
 }
-
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -58,26 +50,21 @@ table {
   margin-bottom: 10%;
   font-size: larger;
 }
-
 td,
 th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
 }
-
 tr:nth-child(even) {
   background-color: #dddddd;
 }
-
 label {
-  /* margin-left: 30%; */
   margin-top: -15%;
   font-weight: 1000px;
 }
-
 #table {
-  width: 80%;
+  width: 50%;
   margin-left: 9%;
 }
 #year {
@@ -99,20 +86,19 @@ label {
 #submit {
   height: 30px;
   margin-left: 15%;
+  background-color: #dddddd;
 }
-
 #cancel {
   height: 30px;
+  background-color: #dddddd;
 }
 body {
   font-weight: 1000px;
 }
-
 .output {
   margin-left: 25%;
   font-size: x-large;
 }
-
 #formrow {
   /* background-color: #dddddd; */
   height: 400px;
@@ -126,18 +112,26 @@ body {
   margin-left: -5%;
   margin-bottom: 0%;
   text-align: center;
-  background-color: #ffffff;
+  background-color: #000000;
 }
 li {
   list-style: none;
-  color: #000000;
+  color: #dddddd;
 }
-#body {
-  background-color: #fd7e14;
+body {
+  background-color: #ce9c9c;
 }
 #alert {
   border: none;
 }
 #imgfooter {
-  height: 80px;
+  height: 100px;
+}
+#navbarsec {
+  font-size: large;
+  color: #000000;
+}
+a {
+  color: #000000;
+  margin-right: 3%;
 }
