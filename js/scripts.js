@@ -20,7 +20,7 @@ function getAkanName() {
       else if (myGender === ("Nothing selected")) {
       alert("Invalid gender");
     }
-    else if (Math.round(dayBorn) === 0 && myGender === ("Male")) {
+      else if (Math.round(dayBorn) === 0 && myGender === ("Male")) {
       document.getElementById("generate-akan").innerHTML = ("Your Akan name is " + maleAkanNames[0] + "!");
     }
       else if (Math.round(dayBorn) === 1 || Math.round(dayBorn) === -1 && myGender === ("Male")) {
@@ -41,7 +41,7 @@ function getAkanName() {
       else if (Math.round(dayBorn) === 6 || Math.round(dayBorn) === -6 && myGender === ("Male")) {
       document.getElementById("generate-akan").innerHTML = ("Your Akan name is " + maleAkanNames[6] + "!");
     }    
-    else if (Math.round (dayBorn) === 0 && myGender === ("Female")) {
+      else if (Math.round (dayBorn) === 0 && myGender === ("Female")) {
       document.getElementById("generate-akan").innerHTML = ("Your Akan name is " + femaleAkanNames[0] + "!")
     }
       else if (Math.round(dayBorn) === 1 || Math.round(dayBorn) === -1 && myGender === ("Female")) {
@@ -69,5 +69,8 @@ function getAkanName() {
 
 function clearAkanNameOutput(){
   document.getElementById("generate-akan").innerHTML = ("");
-  
+  document.getElementById("year").value = ("");
+  document.getElementById("month").value = ("");
+  document.getElementById("day").value = ("");
+  document.querySelector("#gender").value= ("Nothing selected");
 }
