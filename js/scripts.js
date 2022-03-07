@@ -20,6 +20,27 @@ function getAkanName() {
       else if (myGender === ("Nothing selected")) {
       alert("Invalid gender");
     }
+    else if (Math.round(dayBorn) === 0 && myGender === ("Male")) {
+      document.getElementById("generate-akan").innerHTML = ("Your Akan name is " + maleAkanNames[0] + "!");
+    }
+      else if (Math.round(dayBorn) === 1 || Math.round(dayBorn) === -1 && myGender === ("Male")) {
+      document.getElementById("generate-akan").innerHTML = ("Your Akan name is " + maleAkanNames[1] + "!");
+    }
+      else if (Math.round(dayBorn) === 2 || Math.round(dayBorn) === -2 && myGender === ("Male")) {
+      document.getElementById("generate-akan").innerHTML = ("Your Akan name is " + maleAkanNames[2] + "!");
+    }
+      else if (Math.round(dayBorn) === 3 || Math.round(dayBorn) === -3 && myGender === ("Male")) {
+      document.getElementById("generate-akan").innerHTML = ("Your Akan name is " + maleAkanNames[3] + "!");
+    }
+      else if (Math.round(dayBorn) === 4 || Math.round(dayBorn) === -4 && myGender === ("Male")) {
+      document.getElementById("generate-akan").innerHTML = ("Your Akan name is " + maleAkanNames[4] + "!");
+    }  
+      else if (Math.round(dayBorn) === 5 || Math.round(dayBorn) === -5 && myGender === ("Male")) {
+      document.getElementById("generate-akan").innerHTML = ("Your Akan name is " + maleAkanNames[5] + "!");
+    }
+      else if (Math.round(dayBorn) === 6 || Math.round(dayBorn) === -6 && myGender === ("Male")) {
+      document.getElementById("generate-akan").innerHTML = ("Your Akan name is " + maleAkanNames[6] + "!");
+    }    
     else if (Math.round (dayBorn) === 0 && myGender === ("Female")) {
       document.getElementById("generate-akan").innerHTML = ("Your Akan name is " + femaleAkanNames[0] + "!")
     }
@@ -41,27 +62,6 @@ function getAkanName() {
       else if (Math.round(dayBorn) === 6 || Math.round(dayBorn) === -6 && myGender === ("Female")){
       document.getElementById("generate-akan").innerHTML = ("Your Akan name is " + femaleAkanNames[6] + "!");
     }
-      else if (Math.round(dayBorn) === 0 && myGender === ("Male")) {
-      document.getElementById("generate-akan").innerHTML = ("Your Akan name is " + maleAkanNames[0] + "!");
-    }
-      else if (Math.round(dayBorn) === 1 || Math.round(dayBorn) === -1 && myGender === ("Male")) {
-      document.getElementById("generate-akan").innerHTML = ("Your Akan name is " + maleAkanNames[1] + "!");
-    }
-      else if (Math.round(dayBorn) === 2 || Math.round(dayBorn) === -2 && myGender === ("Male")) {
-      document.getElementById("generate-akan").innerHTML = ("Your Akan name is " + maleAkanNames[2] + "!");
-    }
-      else if (Math.round(dayBorn) === 3 || Math.round(dayBorn) === -3 && myGender === ("Male")) {
-      document.getElementById("generate-akan").innerHTML = ("Your Akan name is " + maleAkanNames[3] + "!");
-    }
-      else if (Math.round(dayBorn) === 4 || Math.round(dayBorn) === -4 && myGender === ("Male")) {
-      document.getElementById("generate-akan").innerHTML = ("Your Akan name is " + maleAkanNames[4] + "!");
-    }  
-      else if (Math.round(dayBorn) === 5 || Math.round(dayBorn) === -5 && myGender === ("Male")) {
-      document.getElementById("generate-akan").innerHTML = ("Your Akan name is " + maleAkanNames[5] + "!");
-    }
-      else if (Math.round(dayBorn) === 6 || Math.round(dayBorn) === -6 && myGender === ("Male")) {
-      document.getElementById("generate-akan").innerHTML = ("Your Akan name is " + maleAkanNames[6] + "!");
-    }    
       else {
       alert("Oops! Something is missing. Please fill out every field correctly.");
     }
