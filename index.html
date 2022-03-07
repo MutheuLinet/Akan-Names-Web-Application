@@ -120,7 +120,7 @@
                 maxlength="4"
                 autocomplete="off"
               />
-              <br /><br />
+              <br />
               <input
                 type="text"
                 placeholder="Month"
@@ -130,7 +130,7 @@
                 maxlength="2"
                 autocomplete="off"
               />
-              <br /><br />
+              <br />
               <input
                 type="text"
                 placeholder="Day"
@@ -157,15 +157,15 @@
               />
               <input
                 id="cancel"
-                type="submit"
+                type="button"
                 onclick="clearAkanNameOutput(); return false;"
-                value="Cancel"
+                value="Reset form"
                 name="cancel"
               />
+              <div>
+                <p id="generate-akan" class="output"></p>
+              </div>
             </form>
-            <div class="alert" role="alert" id="alert">
-              <p id="generate-akan" class="output"></p>
-            </div>
           </div>
         </div>
       </div>
