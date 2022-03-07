@@ -68,14 +68,14 @@ label {
   margin-top: -15%;
 }
 #year {
-  height: 30px;
+  height: 20px;
 }
 #month {
-  height: 30px;
+  height: 20px;
   margin-left: 11%;
 }
 #day {
-  height: 30px;
+  height: 20px;
   margin-left: 11%;
 }
 #gender {
@@ -121,9 +121,7 @@ li {
 body {
   background-color: #ce9c9c;
 }
-#alert {
-  border: none;
-}
+
 #imgfooter {
   height: 100px;
 }
